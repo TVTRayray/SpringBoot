@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+country: beijing
+#普通数据类型数组
+likes:
+  - sing
+  - jump
+  - rap
+  - basketball
+likes2: [sing,jump,rap,basketball]
+
+userA:
+  name: tt
+  age: 11
+
+#对象类型数组
+users:
+  -
+    name: zhangsan
+    age: 24
+  -
+    name: imn
+    age: 24
+
+users2: [{name: zhangsan,age: 18},{name: imn,age: 24}]

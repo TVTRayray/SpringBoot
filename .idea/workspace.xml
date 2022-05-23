@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6a5af70-97b7-4e38-a8bd-6bbfcfe96de9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../Maven/com/baomidou/mybatis-plus-core/3.4.3/mybatis-plus-core-3.4.3-sources.jar!/com/baomidou/mybatisplus/core/metadata/IPage.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven" />
+        <option name="userSettingsFile" value="D:\Maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29EuUhW1HcMZvvQsFj6EhdSfMnx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_07_Druid/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41666666" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.splitter.proportion" value="0.25505716" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java-project\SpringBoot\springboot_07_Druid\src\main\resources" />
+      <recent name="D:\java-project\SpringBoot\springboot_07_Druid\src\main\java\com\itheima" />
+      <recent name="D:\java-project\SpringBoot\springboot_06_mybatis_plus\src\main\java\com\itheima" />
+      <recent name="D:\java-project\SpringBoot\springboot_06_mybatis_plus\src\main\resources" />
+      <recent name="D:\java-project\SpringBoot\springboot_05_mybatis\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.controller" />
+      <recent name="com.itheima.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="BookServiceTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_08_ssmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.service" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceTest.testGetPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_08_ssmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.service" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.service.BookServiceTest" />
+      <option name="METHOD_NAME" value="testGetPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IBookServiceTest.testGetPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_08_ssmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.service" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.service.IBookServiceTest" />
+      <option name="METHOD_NAME" value="testGetPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IBookServiceTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_08_ssmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.service" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.service.IBookServiceTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IBookServiceTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_08_ssmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.service" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.service.IBookServiceTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_08_ssmp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_04_junit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot0101QuickstartApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_02_base_configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Springboot0101QuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot0101QuickstartApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_03_yaml" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot0101QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_01_01_quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Springboot0101QuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot0102QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_01_02_quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot_01_02_quickstart.Springboot0102QuickstartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot0103ResTfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_01_03_RESTful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot05MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_05_mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Springboot05MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot06MybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_06_mybatis_plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Springboot06MybatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot07DruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_07_druid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Springboot07DruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot08SsmpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_08_ssmp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.Springboot08SsmpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SsmpApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ssmp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.SsmpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SsmpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_08_ssmp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.SsmpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IBookServiceTest.testGetPage" />
+        <item itemvalue="JUnit.IBookServiceTest.testUpdate" />
+        <item itemvalue="JUnit.IBookServiceTest.testSave" />
+        <item itemvalue="JUnit.BookServiceTest.testGetPage" />
+        <item itemvalue="JUnit.BookServiceTest.testGetAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6a5af70-97b7-4e38-a8bd-6bbfcfe96de9" name="Changes" comment="" />
+      <created>1652690583472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652690583472</updated>
+      <workItem from="1652690586830" duration="2062000" />
+      <workItem from="1652771721796" duration="15853000" />
+      <workItem from="1653270128398" duration="3335000" />
+      <workItem from="1653273502802" duration="3244000" />
+      <workItem from="1653284878804" duration="1326000" />
+      <workItem from="1653293251306" duration="1195000" />
+      <workItem from="1653294460196" duration="2477000" />
+      <workItem from="1653296962802" duration="8255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
