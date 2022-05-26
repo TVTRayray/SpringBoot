@@ -1,5 +1,6 @@
 package com.itheima.controller;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.itheima.domain.Book;
 import com.itheima.service.IBookService;
 import com.itheima.util.R;
@@ -24,7 +25,8 @@ public class BookController {
 
     @PostMapping
     public R save(@RequestBody Book book){
-        return new R(bookService.save(book));
+        boolean flag = bookService.save(book);
+        return new R(flag,flag?"添加成功！":"添加失败！");
     }
 
     @DeleteMapping("{id}")
@@ -38,12 +40,15 @@ public class BookController {
     }
 
     @GetMapping("{currentPage}/{size}")
-    public R  getPage(@PathVariable int currentPage,@PathVariable int size){
-        return new R(true,bookService.getPage(currentPage,size));
+    public R  getPage(@PathVariable int currentPage,@PathVariable int size,Book book){
+//        System.out.println(book);
+        IPage<Book> page = bookService.getPage(currentPage,size,book);
+        //如果当前页码值大于了总页码值，重新执行查询操作，使用最大的页码值
+        if((currentPage)>page.getPages()){
+            page = bookService.getPage((int) page.getPages(),size,book);
+        }
+        return new R(true,page);
     }
 
-    @GetMapping("/conditions/{condition}")
-    public R getByCondition(@PathVariable String condition){
-        return new R(true,bookService.getByCondition(condition));
-    }
+
 }

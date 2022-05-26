@@ -10,7 +10,7 @@ import java.util.List;
 
 //@RestController
 @RequestMapping("/books")
-public class BookControllerOrgin {
+public class BookControllerOrigin {
     @Autowired
     private IBookService bookService;
 
@@ -46,8 +46,8 @@ public class BookControllerOrgin {
     }
 
     //此处不能写成类似 TODO:@GetMapping("{id}")这种的，会导致冲突，可以考虑先判断再使用
-    @GetMapping("/conditions/{condition}")
-    public List<Book> getByCondition(@PathVariable String condition){
-        return bookService.getByCondition(condition);
-    }
+//    @GetMapping("/conditions/{condition}")
+//    public List<Book> getByCondition(@PathVariable String condition){
+//        return bookService.getByCondition(condition);
+//    }
 }

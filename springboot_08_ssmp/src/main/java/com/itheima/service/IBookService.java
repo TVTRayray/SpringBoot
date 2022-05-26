@@ -4,8 +4,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.itheima.domain.Book;
 
-import java.util.List;
-
 /**
  * 使用MP简化业务层开发
  */
@@ -17,5 +15,5 @@ public interface IBookService extends IService<Book> {
 
     IPage<Book> getPage(int currentPage,int size);
 
-    List<Book> getByCondition(String condition);
+    IPage<Book> getPage(int pages, int size, Book book);
 }

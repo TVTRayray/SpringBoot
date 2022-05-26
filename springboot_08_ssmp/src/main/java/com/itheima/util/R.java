@@ -11,13 +11,11 @@ import lombok.Data;
 public class R {
     private boolean flag;
     private Object data;
-
+    //用来存放异常信息通知
+    private String msg;
     public R(){}
 
-    /**
-     * 提供一个flag参数的构造器和所有参数的构造器，简化Controller代码的编写
-     * @param flag
-     */
+
     public R(boolean flag){
         this.flag=flag;
     }
@@ -25,5 +23,17 @@ public class R {
     public R(boolean flag,Object data){
         this.flag=flag;
         this.data=data;
+    }
+
+
+    public R(boolean flag,String msg){
+        this.flag=flag;
+        this.msg=msg;
+    }
+
+    public R(boolean flag, Object data, String msg) {
+        this.flag = flag;
+        this.data = data;
+        this.msg = msg;
     }
 }
