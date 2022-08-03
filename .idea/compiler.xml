@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SSM2SpringBoot_Demo1" />
         <module name="springboot_01_02_quickstart" />
         <module name="springboot_01_03_RESTful" />
         <module name="springboot_04_junit" />
@@ -30,6 +31,7 @@
       <module name="springboot_06_mybatis_plus" target="1.8" />
       <module name="springboot_07_druid" target="1.8" />
       <module name="springboot_08_ssmp" target="1.8" />
+      <module name="SSM2SpringBoot_Demo1" target="1.8" />
       <module name="ssmp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
