@@ -1,0 +1,21 @@
+servers:
+#  宽松绑定：
+#  springboot会忽略yml文件中变量间的 _、- ，同时忽略大小写
+#  绑定事项：仅能使用纯小写字母、数字、下划线作为合法的字符
+#  但是springboot不支持@value的松散绑定
+
+
+#  ipaddress: 192.168.200.2
+#  ip-Address: 192.168.200.2
+#  ip_Address: 192.168.200.2
+#  IP_ADDRESS: 192.168.200.2
+#  IP_ADD_R-ESS: 192.168.200.2
+  ipAddress: 192.168.200.2
+  port: 888
+  timeout: -1
+  server-timeout: 3
+  data-size: 10
+#  注意数据格式，yml的字符串可以不加引号，但是如果是0开头且数字均小于8的会被当初8进制进行转换
+  passwd: 0123
+datasource:
+  driverClassName: com.mysql.jdbc.Driver111

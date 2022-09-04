@@ -1,0 +1,33 @@
+test:
+  pop: testValue
+server:
+  port: 80
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+      username: root
+      password: "11"
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      #      使用数据库的id自增策略而不是mp的雪花算法
+      id-type: auto
+  #      开启mp日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+testcase:
+  id: ${random.int}
+#  id: ${random.int(10)}     10以内的随机数
+#  id: ${random.int(5,20)}   5-20的随机数
+
+# 随机字符串，MD5格式，32位
+  name: ${random.value}
+  uuid: ${random.uuid}
+  publishTime: ${random.long}

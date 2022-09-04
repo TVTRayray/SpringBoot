@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SSM2SpringBoot_Demo1/SSM2SpringBoot_Demo1.iml" filepath="$PROJECT_DIR$/SSM2SpringBoot_Demo1/SSM2SpringBoot_Demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_01_01_quickstart/springboot_01_01_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_01_quickstart/springboot_01_01_quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_01_02_quickstart/springboot_01_02_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_02_quickstart/springboot_01_02_quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_01_03_RESTful/springboot_01_03_RESTful.iml" filepath="$PROJECT_DIR$/springboot_01_03_RESTful/springboot_01_03_RESTful.iml" />
@@ -13,6 +12,11 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_06_mybatis_plus/springboot_06_mybatis_plus.iml" filepath="$PROJECT_DIR$/springboot_06_mybatis_plus/springboot_06_mybatis_plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_07_Druid/springboot_07_druid.iml" filepath="$PROJECT_DIR$/springboot_07_Druid/springboot_07_druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_08_ssmp/springboot_08_ssmp.iml" filepath="$PROJECT_DIR$/springboot_08_ssmp/springboot_08_ssmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pringboot_09_config/springboot_09_config.iml" filepath="$PROJECT_DIR$/pringboot_09_config/springboot_09_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_10_hot_deploy/springboot_10_hot_deploy.iml" filepath="$PROJECT_DIR$/springboot_10_hot_deploy/springboot_10_hot_deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_11_configuration/springboot_11_configuration.iml" filepath="$PROJECT_DIR$/springboot_11_configuration/springboot_11_configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_12_test/springboot_12_test.iml" filepath="$PROJECT_DIR$/springboot_12_test/springboot_12_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_13_sql/springboot_13_sql.iml" filepath="$PROJECT_DIR$/springboot_13_sql/springboot_13_sql.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,21 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+    username: root
+    password: "11"
+#    即使不加入数据源的声明，只要在pom中引入了druid，spring就会自动配置
+#    当没有引入时，会使用内置的数据源HikariCP
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      #      使用数据库的id自增策略而不是mp的雪花算法
+      id-type: auto
+  #      开启mp日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

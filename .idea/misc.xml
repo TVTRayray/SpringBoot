@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SSMDemo2" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -14,7 +17,11 @@
         <option value="$PROJECT_DIR$/springboot_08_ssmp/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_06_mybatis_plus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_07_Druid/pom.xml" />
-        <option value="$PROJECT_DIR$/SSM2SpringBoot_Demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/pringboot_09_config/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_10_hot_deploy/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_11_configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_12_test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_13_sql/pom.xml" />
       </list>
     </option>
   </component>

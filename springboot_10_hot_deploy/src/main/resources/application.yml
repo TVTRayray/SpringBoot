@@ -1,0 +1,27 @@
+server:
+  port: 80
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
+      username: root
+      password: "11"
+#  可以自定义热部署的范围(文件和文件夹)，一般静态资源不参与热部署
+#  高级别的配置可以覆盖低级别的配置文件
+  devtools:
+    restart:
+      exclude: static/**,config/**
+    livereload:
+      enabled: true
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+#      使用数据库的id自增策略而不是mp的雪花算法
+      id-type: auto
+#      开启mp日志
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
