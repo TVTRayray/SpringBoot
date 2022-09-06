@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot_15_jsp" />
     <file type="web" url="file://$PROJECT_DIR$/SSMDemo2" />
   </component>
   <component name="MavenProjectsManager">
@@ -22,6 +23,10 @@
         <option value="$PROJECT_DIR$/springboot_11_configuration/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_12_test/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_13_sql/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_14_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_14_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_15_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_16_bean_init/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,9 @@
+server:
+  port: 80
+
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+
+    static-path-pattern: /static/**

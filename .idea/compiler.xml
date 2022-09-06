@@ -15,13 +15,16 @@
         <module name="springboot_12_test" />
         <module name="springboot_08_ssmp" />
         <module name="springboot_06_mybatis_plus" />
+        <module name="springboot_14_redis" />
         <module name="springboot_01_02_quickstart" />
         <module name="springboot_01_03_RESTful" />
         <module name="springboot_04_junit" />
+        <module name="springboot_16_bean_init" />
         <module name="springboot_01_01_quickstart" />
         <module name="springboot_11_configuration" />
         <module name="springboot_02_base_configuration" />
         <module name="springboot_10_hot_deploy" />
+        <module name="springboot_15_jsp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +43,9 @@
       <module name="springboot_11_configuration" target="1.8" />
       <module name="springboot_12_test" target="1.8" />
       <module name="springboot_13_sql" target="1.8" />
+      <module name="springboot_14_redis" target="1.8" />
+      <module name="springboot_15_jsp" target="1.8" />
+      <module name="springboot_16_bean_init" target="1.8" />
       <module name="SSM2SpringBoot_Demo1" target="1.8" />
       <module name="SSMDemo" target="1.8" />
       <module name="SSMDemo2" target="1.8" />
